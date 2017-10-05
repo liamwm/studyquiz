@@ -8,13 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		75051B861F82287B00EE4DAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75051B851F82287B00EE4DAD /* AppDelegate.swift */; };
-		75051B881F82287B00EE4DAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75051B871F82287B00EE4DAD /* ViewController.swift */; };
 		75051B8B1F82287B00EE4DAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75051B891F82287B00EE4DAD /* Main.storyboard */; };
 		75051B8E1F82287B00EE4DAD /* studyquiz.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 75051B8C1F82287B00EE4DAD /* studyquiz.xcdatamodeld */; };
 		75051B901F82287B00EE4DAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75051B8F1F82287B00EE4DAD /* Assets.xcassets */; };
 		75051B931F82287B00EE4DAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 75051B911F82287B00EE4DAD /* LaunchScreen.storyboard */; };
 		75051B9E1F82287C00EE4DAD /* studyquizTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75051B9D1F82287C00EE4DAD /* studyquizTests.swift */; };
 		75051BA91F82287C00EE4DAD /* studyquizUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75051BA81F82287C00EE4DAD /* studyquizUITests.swift */; };
+		75051BB71F822A0400EE4DAD /* QuestionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75051BB61F822A0400EE4DAD /* QuestionTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 /* Begin PBXFileReference section */
 		75051B821F82287B00EE4DAD /* studyquiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = studyquiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75051B851F82287B00EE4DAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		75051B871F82287B00EE4DAD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		75051B8A1F82287B00EE4DAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		75051B8D1F82287B00EE4DAD /* studyquiz.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = studyquiz.xcdatamodel; sourceTree = "<group>"; };
 		75051B8F1F82287B00EE4DAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +48,7 @@
 		75051BA41F82287C00EE4DAD /* studyquizUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = studyquizUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		75051BA81F82287C00EE4DAD /* studyquizUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyquizUITests.swift; sourceTree = "<group>"; };
 		75051BAA1F82287C00EE4DAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75051BB61F822A0400EE4DAD /* QuestionTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +99,8 @@
 		75051B841F82287B00EE4DAD /* studyquiz */ = {
 			isa = PBXGroup;
 			children = (
+				75051BB61F822A0400EE4DAD /* QuestionTableViewController.swift */,
 				75051B851F82287B00EE4DAD /* AppDelegate.swift */,
-				75051B871F82287B00EE4DAD /* ViewController.swift */,
 				75051B891F82287B00EE4DAD /* Main.storyboard */,
 				75051B8F1F82287B00EE4DAD /* Assets.xcassets */,
 				75051B911F82287B00EE4DAD /* LaunchScreen.storyboard */,
@@ -263,7 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75051B8E1F82287B00EE4DAD /* studyquiz.xcdatamodeld in Sources */,
-				75051B881F82287B00EE4DAD /* ViewController.swift in Sources */,
+				75051BB71F822A0400EE4DAD /* QuestionTableViewController.swift in Sources */,
 				75051B861F82287B00EE4DAD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
